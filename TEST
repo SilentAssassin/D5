@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="favicon.ico"> 
+<link href="populace.css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Populace is a fake social networking site that I created in CSS3 and HTML for my web standards class at AIPD. It taught me quite a bit."
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script> 
+<script type="text/javascript" src="js/rounded.js"></script>
+<script type="text/javascript" src="js/showhide.js"></script>
+<script type="text/javascript" src="js/socialtoggle.js"></script>
+
+<!--[if IE]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head> 
+
+<body id="all">
+
+<div id="content">
+  <header>
+    <h1 class="NeoSans-Medium"><a href="#">populace</a></h1>
+    <section id="r_nav">
+    <ul>
+      <li><a href="#"><img src="images/home.png" width="15" height="15" alt="img" /></a><a href="#" class="NeoSans-Medium">home</a></li>
+      <li><a href="#" class="NeoSans-Medium"><img src="images/settings2.png" width="15" height="15" alt="img" /></a><a href="#" class="NeoSans-Medium">settings</a></li>
+
+      <li><a href="#" class="NeoSans-Medium"><img src="images/login.png" width="12" height="12" alt="img" /></a><a href="#" class="NeoSans-Medium">enter</a></li>
+      <li><a href="#"  class="NeoSans-Medium"><img src="images/logout.png" width="12" height="12" alt="img" /></a><a href="#" class="NeoSans-Medium">exit</a></li>
+    </ul>
+    <form class="searchform">
+      <input class="searchfield" type="text" value="Search..." onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}" />
+      <input class="searchbutton" type="button" value="Go" />
+    </form>
+    </section> 
+    </header>
+
+  <div id="main">
+    <section id="me"> <a href="http://www.youtube.com/watch?v=J6QQ6omZXEk"><img src="images/marvin.jpg" class="rounded-img" alt="img" /></a>
+      <ul>
+        <li class="NeoSans-Medium"><a href="#">edit profile</a></li>
+        <li class="NeoSans-Medium"><a href="#">messages</a></li>
+      </ul>
+      <section id="post">
+
+        <form class="post">
+          <textarea class="searchfield" onBlur="if (this.value == '') {this.value = 'What up?';}" onFocus="if (this.value == 'What up?') {this.value = '';}">What up?</textarea>
+          <section>
+            <ul>
+              <li id="also"><a href="#"><img src="images/add_.png" width="15" height="15" alt="img"></a></li>
+              <li><a href="https://twitter.com/darthvader" class="social"><img src="images/icon_twitter.png" alt="img" /></a></li>
+              <li><a href="#" class="social"><img src="images/icon_facebook.png" alt="img" /></a></li>
+              <li><a href="#" class="social"><img src="images/icon_youtube.png" alt="img" /></a></li>
+
+              <li><a href="#" class="social"><img src="images/icon_linkedin.png" alt="img" /></a></li>
+              <li><a href="#" class="social"><img src="images/icon_tumblr.png" alt="img" /></a></li>
+              <li><a href="#" class="social"><img src="images/icon_myspace.png" alt="img"/></a></li>
+              <li><a href="#" class="social"><img src="images/icon_rss.png" alt="img"/></a></li>
+            </ul>
+            
+            <span id="transmit"><a href="#"><img src="images/transmit.png" width="32" height="32" alt="transmit" title="transmit" /></a></span>
+            
+          </section>
+        </form>
+      </section>
+
+      <section id="followers">
+        <h2 class="NeoSans-Medium">followers</h2>
+        <ul>
+          <li><a href="http://surferjerry.com/wp-content/uploads/2010/02/David-Hasselhoff-Paper-Doll.jpg"><img src="images/heads/1.jpg" class="rounded-img" alt="img"></a></li>
+          <li><a href="#"><img src="images/heads/2.jpg" class="rounded-img" alt="img"></a></li>
+          <li><a href="http://www.youtube.com/watch?v=zIcx_rxTstc"><img src="images/heads/3.jpg" class="rounded-img" alt="img"></a></li>
+          <li><a href="#"><img src="images/heads/4.jpg" class="rounded-img" alt="img"></a></li>
+          <li><a href="http://www.chucknorrisfacts.com/"><img src="images/heads/5.jpg" class="rounded-img" alt="img"></a></li>
+
+          <li><a href="#"><img src="images/heads/6.jpg" class="rounded-img" alt="img"></a></li>
+          <li><a href="#"><img src="images/heads/7.jpg" class="rounded-img" alt="img"></a></li>
+          <li><a href="#"><img src="images/heads/8.jpg" class="rounded-img" alt="img"></a></li>
+          <li><h3><a href="#" class="NeoSans-Medium">more</a></h3></li>
+
+        </ul>
+      </section>
+      
+      
+      <p>&nbsp;</p>
+    </section>
+
+    
+    <section id="them">
+    
+    	<section class="poster">
+        <a href="http://geeksofdoom.com/2010/05/20/i-lobot-a-day-in-the-life-of-lando-calrissians-assistant/"><img src="images/lobot.jpg" class="rounded-img2" alt="img"></a>
+        <section class="posted"><p>Watch out, or me and my homies will surround you. Quietly. </p></section>
+		
+        <hr>
+        </section>
+              
+      <section class="poster">
+        <a href="http://www.comedycentral.com/videos/index.jhtml?title=balock-on-shatner&amp;videoId=73197"><img src="images/tranya.jpg" class="rounded-img2" alt="img"></a>
+
+        <section class="posted"><p>Tranya! LOL!</p></section>
+
+        <hr>
+        </section>
+    
+        <section class="poster">
+        <a href="http://www.youtube.com/watch?v=ZmpjuxPzf6g"><img src="images/thx.jpg" class="rounded-img2" alt="img"></a>
+        <section class="posted"><p>My name is THX 1138. It says so on my underwear.</p></section>
+
+        <hr>
+
+        </section>
+    
+    </section>
+    
+    <section id="following">
+        <h2  class="NeoSans-Medium">following</h2>
+        <ul>
+          <li><a href="#"><img src="images/heads/a.jpg" class="rounded-img2" alt="img"></a></li>
+          <li><a href="#"><img src="images/heads/b.jpg" class="rounded-img2" alt="img"></a></li>
+          <li><a href="#"><img src="images/heads/c.jpg" class="rounded-img2" alt="img"></a></li>
+
+          <li><a href="http://www.bestweekever.tv/2009-01-26/guess-the-celeb-tattoed-scalp-fat-edition/"><img src="images/heads/d.jpg" class="rounded-img2" alt="img" /></a></li>
+          <li><a href="http://www.youtube.com/watch?v=UiEOxaoP9cw"><img src="images/heads/e.jpg" class="rounded-img2" alt="img"></a></li>
+          <li><a href="#"><img src="images/heads/f.jpg" class="rounded-img2" alt="img"></a></li>
+          <li><a href="http://www.youtube.com/watch?v=tWdgAMYjYSs"><img src="images/heads/g.jpg" class="rounded-img2" alt="img"></a></li>
+          <li><a href="#"><img src="images/heads/h.jpg" class="rounded-img2" alt="img"></a></li>
+          <li><h3><a href="#" class="NeoSans-Medium">more</a></h3></li>
+
+        </ul>
+    
+    
+    </section>
+
+    
+    <section id="bignews">
+    
+    <h2 class="NeoSans-Medium">what's going on?</h2>
+    
+    <p>Check out how the general Populace is living.</p>
+   	  <div class="news">
+        <a href="#" onclick="toggle_visibility('trending');">Trending Topics</a>
+		<div id="trending" style="display:none;">
+		<ul>
+
+        <li><a href="#">#battlestar</a></li>
+        <li><a href="#">#ATEAM</a></li>
+        <li><a href="#">#knightrider</a></li>
+        </ul>
+        </div>
+        </div>
+        
+      <div class="news">
+
+    <a href="#" onclick="toggle_visibility('music');">Music</a>
+		<div id="music" style="display:none;">
+		<ul>
+        <li><a href="#">WHAM</a></li>
+        <li><a href="http://www.tmz.com/2009/08/09/lead-singer-of-flock-of-seagulls-memba-him/">Flock of Seagulls</a></li>
+        <li><a href="#">Huey Lewis and the News</a></li>
+        </ul>
+
+        </div>
+    	</div>
+        
+      <div class="news">
+    <a href="#" onclick="toggle_visibility('videos');">Videos</a>
+		<div id="videos" style="display:none;">
+		<ul>
+        <li><a href="#">Where's The Beef Commercial</a></li>
+        <li><a href="#">Facts of Life</a></li>
+
+        <li><a href="#">That's Incredible</a></li>
+        </ul>
+        </div>
+        </div>
+    
+   	  <div class="news">
+    <a href="#" onclick="toggle_visibility('blogs');">Blogs</a>
+		<div id="blogs" style="display:none;">
+		<ul>
+
+        <li><a href="#">Wil Wheaton</a></li>
+        <li><a href="#">Ricky Schroeder</a></li>
+        <li><a href="#">Corey Haim - Beyond the Grave</a></li>
+        </ul>
+        </div>
+   		</div>
+   	
+    	<div class="news">
+
+    <a href="#" onclick="toggle_visibility('vlogs');">Vlogs</a>
+		<div id="vlogs" style="display:none;">
+		<ul>
+        <li><a href="#">People of the 80's</a></li>
+        <li><a href="#">Don't Create</a></li>
+        <li><a href="#">Vlogs</a></li>
+        </ul>
+
+        </div>
+    	</div>
+    
+    </section>
+    
+  </div>
+  
+  <footer>
+  
+  <div id="botinfo">
+  
+<ul>
+
+<li>All Rights Reserved |</li>
+
+<li><a href="#">Populace</a> |</li>
+<li><a href="#">Company Info</a> |</li>
+<li><a href="#">Site Map</a> |</li>
+<li><a href="#">Contact Us</a> |</li>
+<li><a href="#">Employment</a></li>
+
+</ul>  
+
+  </div>
+  
+  </footer>
+  
+  
+</div>
+</body>
+</html>
